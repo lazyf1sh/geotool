@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SQLite;
-using System.Data.SQLite.Linq;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -10,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Linq;
 using System.Data.Linq.Mapping;
+using System.Data.SQLite;
 
 namespace GeoTool
 {

@@ -41,7 +41,7 @@ namespace GeoTool
             string api = File.ReadAllLines("api+secret")[0].Split('|')[0];
             string secret = File.ReadAllLines("api+secret")[0].Split('|')[1];
             Quova q = new Quova(api, secret);
-            IpInfo ipInfo = q.LookUp(_ip);
+            IpInfo ipInfo = q.LookUp(_ip.ToString());
             if (ipInfo != null)
             {
                 geodata = new GeoData()
